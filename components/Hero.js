@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
-export function Hero() {
+export function Hero({ page }) {
   return (
     <>
       <Image
@@ -14,7 +14,7 @@ export function Hero() {
       />
       <ol>
         <li>
-          Get started by editing <code>pages/index.js</code>.
+          Get started by editing <code>pages/{page}.js</code>.
         </li>
         <li>Save and see your changes instantly.</li>
       </ol>

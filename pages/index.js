@@ -5,7 +5,7 @@ import { CTAButtons } from "../components/CTAButtons";
 export default function Home() {
   return (
     <Layout title="Home - Next.js App">
-      <Hero />
+      <Hero page="index" />
       <CTAButtons />
     </Layout>
   );
